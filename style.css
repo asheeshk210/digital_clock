@@ -1,0 +1,54 @@
+body{
+    font-family: digital;
+    background: url('grunge-6097778_1280.jpg');
+    
+    
+    background-size:cover;
+}
+.clock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 10px solid rgb(248, 245, 245);
+    transform: translateX(-50%) translateY(-50%);
+    padding-top: 2%;
+    padding-bottom: 2% ;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+.digit{
+ color: white;
+ font-size: 800%;
+ text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+}
+@font-face{
+    font-family:'digital';
+    src: url('digital-7.ttf');
+   }
+
+   .header{
+       color: white;
+       font-family: sans-serif;
+       font-weight: bold;
+       font-size: 4.5rem;
+       padding-bottom: 5%;
+         
+   }
+   @media only screen and (max-width: 700px) {
+    .digit{
+        
+        font-size: 400%;
+        
+       }
+       .clock{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        border: 10px solid rgb(248, 245, 245);
+        transform: translateX(-50%) translateY(-50%);
+        padding-top: 2%;
+        padding-bottom: 2% ;
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+  }
